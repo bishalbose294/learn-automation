@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 
 public class InteractionWithElements {
 	
-	WebDriver driver=null;
+	WebDriver driver=null;;
 	
 	@BeforeClass
 	public void preLaunch() throws Exception
