@@ -8,8 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class FindElementsDemo {
-
-	// this is a chutiya way to showing demo
 	
 	@Test(enabled=false)
 	public void findElementByDriver() throws Exception
