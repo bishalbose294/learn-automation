@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-02T13:55:50Z" name="Suite" finished-at="2020-11-02T13:57:07Z" duration-ms="76979">
+    <groups>
+    </groups>
+    <test started-at="2020-11-02T13:55:50Z" name="Test-edge" finished-at="2020-11-02T13:56:00Z" duration-ms="10051">
+      <class name="com.demo.TestNavCrossBrowser">
+        <test-method signature="launchDriver(java.lang.String)[pri:0, instance:com.demo.TestNavCrossBrowser@7d8704ef]" started-at="2020-11-02T13:55:50Z" name="launchDriver" finished-at="2020-11-02T13:56:00Z" duration-ms="9930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+      </class> <!-- com.demo.TestNavCrossBrowser -->
+    </test> <!-- Test-edge -->
+    <test started-at="2020-11-02T13:55:50Z" name="Test-chrome" finished-at="2020-11-02T13:56:03Z" duration-ms="12224">
+      <class name="com.demo.TestNavCrossBrowser">
+        <test-method signature="launchDriver(java.lang.String)[pri:0, instance:com.demo.TestNavCrossBrowser@710f4dc7]" started-at="2020-11-02T13:55:50Z" name="launchDriver" finished-at="2020-11-02T13:56:03Z" duration-ms="12191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+      </class> <!-- com.demo.TestNavCrossBrowser -->
+    </test> <!-- Test-chrome -->
+    <test started-at="2020-11-02T13:55:50Z" name="Test-firefox" finished-at="2020-11-02T13:57:07Z" duration-ms="76979">
+      <class name="com.demo.TestNavCrossBrowser">
+        <test-method signature="launchDriver(java.lang.String)[pri:0, instance:com.demo.TestNavCrossBrowser@4e50c791]" started-at="2020-11-02T13:55:50Z" name="launchDriver" finished-at="2020-11-02T13:57:07Z" duration-ms="76946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+      </class> <!-- com.demo.TestNavCrossBrowser -->
+    </test> <!-- Test-firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

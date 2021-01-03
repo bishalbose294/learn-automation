@@ -1,0 +1,11 @@
+Oct 28, 2020 2:16:57 AM com.demo.Loggersdemo main
+INFO: Logger Name: 7
+Oct 28, 2020 2:16:57 AM com.demo.Loggersdemo main
+WARNING: Can cause ArrayIndexOutOfBoundsException
+Oct 28, 2020 2:16:57 AM com.demo.Loggersdemo main
+CONFIG: index is set to 3
+Oct 28, 2020 2:16:57 AM com.demo.Loggersdemo main
+SEVERE: Exception occur
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at com.demo.Loggersdemo.main(Loggersdemo.java:30)
+
