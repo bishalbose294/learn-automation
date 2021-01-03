@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9986" started-at="2020-03-23T20:08:55Z" finished-at="2020-03-23T20:09:05Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="9986" started-at="2020-03-23T20:08:55Z" finished-at="2020-03-23T20:09:05Z">
+      <class name="com.demo.ParameterPassingFromTestNG">
+        <test-method status="FAIL" signature="openDynamicUrl(java.lang.String, java.lang.String)[pri:0, instance:com.demo.ParameterPassingFromTestNG@93de87]" name="openDynamicUrl" duration-ms="0" started-at="2020-03-23T20:08:55Z" finished-at="2020-03-23T20:08:55Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'munot' is required by @Test on method openDynamicUrl but has not been marked @Optional or defined
+in E:\Bhavi\EclipseWorkspace\ParallelEecution\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'munot' is required by @Test on method openDynamicUrl but has not been marked @Optional or defined
+in E:\Bhavi\EclipseWorkspace\ParallelEecution\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDynamicUrl -->
+        <test-method status="PASS" signature="openDynamicUrl(org.testng.ITestContext)[pri:0, instance:com.demo.ParameterPassingFromTestNG@93de87]" name="openDynamicUrl" duration-ms="9925" started-at="2020-03-23T20:08:55Z" finished-at="2020-03-23T20:09:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ce0030]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDynamicUrl -->
+      </class> <!-- com.demo.ParameterPassingFromTestNG -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

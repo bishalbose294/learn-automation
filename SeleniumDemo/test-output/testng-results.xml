@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39704" started-at="2020-03-23T18:56:54Z" finished-at="2020-03-23T18:57:34Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="26256" started-at="2020-03-23T18:56:54Z" finished-at="2020-03-23T18:57:21Z">
+      <class name="com.demo.TestNGParameters">
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:com.demo.TestNGParameters@162806e]" name="launchDriver" is-config="true" duration-ms="3280" started-at="2020-03-23T18:56:54Z" finished-at="2020-03-23T18:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="executeTestCase3()[pri:0, instance:com.demo.TestNGParameters@162806e]" name="executeTestCase3" duration-ms="14896" started-at="2020-03-23T18:56:58Z" finished-at="2020-03-23T18:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase3 -->
+        <test-method status="PASS" signature="executeTestCase1()[pri:0, instance:com.demo.TestNGParameters@162806e]" name="executeTestCase1" duration-ms="19461" started-at="2020-03-23T18:56:58Z" finished-at="2020-03-23T18:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase1 -->
+        <test-method status="PASS" signature="executeTestCase2()[pri:0, instance:com.demo.TestNGParameters@162806e]" name="executeTestCase2" duration-ms="9048" started-at="2020-03-23T18:56:58Z" finished-at="2020-03-23T18:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase2 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.demo.TestNGParameters@162806e]" name="quitDriver" is-config="true" duration-ms="666" started-at="2020-03-23T18:57:17Z" finished-at="2020-03-23T18:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.demo.TestNGParameters -->
+      <class name="com.demo.DriverDemo">
+        <test-method status="PASS" signature="blaunchDriver()[pri:0, instance:com.demo.DriverDemo@8a102f]" name="blaunchDriver" duration-ms="9011" started-at="2020-03-23T18:56:54Z" finished-at="2020-03-23T18:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blaunchDriver -->
+        <test-method status="PASS" signature="aopenFacebook()[pri:0, instance:com.demo.DriverDemo@8a102f]" name="aopenFacebook" duration-ms="17159" started-at="2020-03-23T18:57:03Z" depends-on-methods="com.demo.DriverDemo.blaunchDriver" finished-at="2020-03-23T18:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aopenFacebook -->
+      </class> <!-- com.demo.DriverDemo -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="13409" started-at="2020-03-23T18:57:21Z" finished-at="2020-03-23T18:57:34Z">
+      <class name="com.demo.TestNGParameters">
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:com.demo.TestNGParameters@156496]" name="launchDriver" is-config="true" duration-ms="2505" started-at="2020-03-23T18:57:21Z" finished-at="2020-03-23T18:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="executeTestCase1()[pri:0, instance:com.demo.TestNGParameters@156496]" name="executeTestCase1" duration-ms="3535" started-at="2020-03-23T18:57:23Z" finished-at="2020-03-23T18:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase1 -->
+        <test-method status="PASS" signature="executeTestCase2()[pri:0, instance:com.demo.TestNGParameters@156496]" name="executeTestCase2" duration-ms="7350" started-at="2020-03-23T18:57:23Z" finished-at="2020-03-23T18:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase2 -->
+        <test-method status="PASS" signature="executeTestCase3()[pri:0, instance:com.demo.TestNGParameters@156496]" name="executeTestCase3" duration-ms="10251" started-at="2020-03-23T18:57:23Z" finished-at="2020-03-23T18:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase3 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.demo.TestNGParameters@156496]" name="quitDriver" is-config="true" duration-ms="641" started-at="2020-03-23T18:57:33Z" finished-at="2020-03-23T18:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.demo.TestNGParameters -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

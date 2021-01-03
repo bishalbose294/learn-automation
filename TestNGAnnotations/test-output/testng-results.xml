@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="11" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="37" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+      <class name="com.demo1.TestAnnotations">
+        <test-method status="PASS" signature="beforeSuiteMethod()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="beforeSuiteMethod" is-config="true" duration-ms="21" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="beforeTestMethod" is-config="true" duration-ms="1" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="beforeClassMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="Test1" duration-ms="6" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="Test2" duration-ms="2" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="afterClassMethod()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="afterClassMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="afterTestMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="afterSuiteMethod()[pri:0, instance:com.demo1.TestAnnotations@a5fe93]" name="afterSuiteMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- com.demo1.TestAnnotations -->
+    </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="42" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+      <class name="com.demo1.TestAnnotations">
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:com.demo1.TestAnnotations@8a102f]" name="beforeTestMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.demo1.TestAnnotations@8a102f]" name="beforeClassMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo1.TestAnnotations@8a102f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.demo1.TestAnnotations@8a102f]" name="Test1" duration-ms="5" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demo1.TestAnnotations@8a102f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.demo1.TestAnnotations@8a102f]" name="Test2" duration-ms="2" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo1.TestAnnotations@8a102f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demo1.TestAnnotations@8a102f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClassMethod()[pri:0, instance:com.demo1.TestAnnotations@8a102f]" name="afterClassMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:com.demo1.TestAnnotations@8a102f]" name="afterTestMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- com.demo1.TestAnnotations -->
+      <class name="com.demo1.TestAnnotationsClass2">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.demo1.TestAnnotationsClass2@162806e]" name="beforeClassMethod" is-config="true" duration-ms="1" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:com.demo1.TestAnnotationsClass2@162806e]" name="Test3" duration-ms="5" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo1.TestAnnotationsClass2@162806e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demo1.TestAnnotationsClass2@162806e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test4()[pri:0, instance:com.demo1.TestAnnotationsClass2@162806e]" name="Test4" duration-ms="1" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo1.TestAnnotationsClass2@162806e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demo1.TestAnnotationsClass2@162806e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo1.TestAnnotationsClass2@162806e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test5()[pri:0, instance:com.demo1.TestAnnotationsClass2@162806e]" name="Test5" duration-ms="1" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demo1.TestAnnotationsClass2@162806e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClassMethod()[pri:0, instance:com.demo1.TestAnnotationsClass2@162806e]" name="afterClassMethod" is-config="true" duration-ms="0" started-at="2020-03-23T18:49:52Z" finished-at="2020-03-23T18:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+      </class> <!-- com.demo1.TestAnnotationsClass2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

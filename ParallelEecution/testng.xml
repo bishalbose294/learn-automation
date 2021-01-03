@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+  <test name="Test1" enabled="false" >
+  	<parameter name="bhavini" value="https://www.google.com"></parameter>
+  	<parameter name="munot" value="Well, That's a new Parameter"></parameter>
+  	<classes>
+  		<class name="com.demo.ParameterPassingFromTestNG"></class>
+  	</classes>
+  </test>
+   
+   <test name="Test2" enabled="true" >
+  	<parameter name="bhavini" value="https://www.facebook.com"></parameter> 
+  	<!-- This will get failed as "munot"parameter is not defined  -->
+  	<classes>
+  		<class name="com.demo.ParameterPassingFromTestNG"></class>
+  	</classes>
+  </test>
+   
+</suite>
