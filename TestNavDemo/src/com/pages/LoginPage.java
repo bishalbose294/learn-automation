@@ -5,8 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class LoginPage {
-	
-	//This is a  comment line
 
 	private String usernameLocator = ".//input[@id='email']";
 	private By usernameBy = By.xpath(usernameLocator);
