@@ -1,0 +1,32 @@
+Steps for setting-up GIT in your local system from existing repository:-
+1. Copy the GIT WebURL from the GITHUB page, looks like "https://github.com/bhavimunot0794/learn-automation.git" from "Code" drop-down button
+2. Open Eclipse > GIT Perspective
+3. Clone a GIT Repository
+4. The copied URL would be pasted in the field > Username and Password > Next
+5. Create a folder which should contain the Projects in GIT Perspective
+6. Browse thru the folder location > Finish
+7. Open Perspective > JAVA EE Perspective
+8. File > Open Projects from File System > Select the Directory from point #6 > Select All > Finish
+
+Steps for Commit and Push to GITHUB:-
+1. Make changes in the project in JavaEE Perspective > Save
+2. Right click on the Project > Team > Commit
+3. Stage the changes you want to push
+4. Add Commit Comments > Author Name > Author Email > Commit and Push
+5. Go to the GITHUB Page and Refresh
+6. The commit would be reflected in the file
+
+Steps for Pull from GITHUB:-
+1. Go to GIT Perspective in Eclipse > Right click on the Project > Pull
+
+End to End GITHUB Flow:-
+1. setting-up github in your local machine
+2. taking a pull from the master branch
+3. creating your own branch as a copy of the master
+4. making changes in your own branch
+5. pushing the changes to your branch in github
+6. creating a pull request to getting it merged into master
+7. pull request getting reviewed
+8. pull request getting merged into master
+9. taking a pull from the master
+
