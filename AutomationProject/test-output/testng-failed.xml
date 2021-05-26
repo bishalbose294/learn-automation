@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.demo.listeners.TestNGListenersDemo"/>
-  </listeners>
-  <test thread-count="5" parallel="tests" name="madarchod(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.listeners.DemoListener">
+      <class name="com.demo.ExtentReportsDemo2">
         <methods>
-          <include name="openBrowser"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.demo.listeners.DemoListener -->
+      </class> <!-- com.demo.ExtentReportsDemo2 -->
     </classes>
-  </test> <!-- madarchod(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -2,7 +2,7 @@ package projects;
 
 public class PrimeNumbers {
 	public static void main(String[] args) {
-		int num = 51;
+		int num = 11;
 		boolean isPrime = false;
 		for (int i = 2; i < num; i++) {
 			if (num%i == 0) {

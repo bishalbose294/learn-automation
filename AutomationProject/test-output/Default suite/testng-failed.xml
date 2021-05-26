@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.listeners.DemoListener">
+      <class name="com.demo.ExtentReportsDemo2">
         <methods>
-          <include name="openBrowser"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.demo.listeners.DemoListener -->
+      </class> <!-- com.demo.ExtentReportsDemo2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
